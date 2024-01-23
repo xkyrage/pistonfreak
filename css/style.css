@@ -12,7 +12,8 @@
   text-decoration: none;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -301,14 +302,14 @@ body {
   margin: 25px 0;
 }
 
-.pricing-button:hover,
-.pricing-button:focus {
+.pricing-button:hover {
+  /* .pricing-button:focus { */
   background-color: var(--primary);
   color: white;
 }
 
 .pricing-button.is-featured {
-  background-color: var(--primary);
+  background-color: purple;
   color: white;
 }
 
