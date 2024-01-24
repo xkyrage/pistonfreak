@@ -34,11 +34,7 @@ body {
   background-size: 18%;
   background-position: left;
   position: relative;
-<<<<<<< HEAD
   background-color: rgb(2 2 2 / 88%);
-=======
-  background-color: rgb(2 2 2 / 86%);
->>>>>>> feat/tegarstage
   border-bottom: 1px solid var(--primary);
   position: fixed;
   top: 0;
