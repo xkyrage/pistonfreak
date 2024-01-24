@@ -256,11 +256,11 @@ body {
   width: fit-content;
 }
 
-.pricing-plan {
+/* .pricing-plan {
 }
 
 .pricing-plan:last-child {
-}
+} */
 .pricing-img {
   max-width: 100%;
 }
@@ -402,7 +402,7 @@ body {
 /* testimony */
 .testimony {
   box-sizing: border-box;
-  margin: ;
+  margin: 0;
   padding: 8rem 7% 1.4rem;
   background-color: #000000;
 }
