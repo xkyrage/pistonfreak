@@ -95,6 +95,41 @@ body {
   display: none;
 }
 
+/* Navbar search form */
+.navbar .search-form {
+  position: absolute;
+  top: 100%;
+  right: 7%;
+  background-color: #fff;
+  width: 50rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+.navbar .search-form.active {
+  transform: scaleY(1);
+}
+
+.navbar .search-form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: black;
+  padding: 1rem;
+  display: flex;
+}
+
+.navbar .search-form label {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: var(--bg);
+}
+
 /* freak section */
 
 .freak {
@@ -146,7 +181,7 @@ body {
   mix-blend-mode: difference;
 }
 
-.freak .content .cta {
+.freak .content .item-detail-button {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
@@ -534,14 +569,14 @@ input:checked + label .description {
 
 /* footer */
 footer {
-  background-color: var(--primary);
+  background-color: rgb(49 49 49 / 41%);
   text-align: center;
   padding: 1rem 0;
   margin-top: 3rem;
 }
 
 footer .credit {
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-bottom: 0rem;
 }
 
@@ -549,6 +584,113 @@ footer .credit a {
   color: var(--bg);
   font-weight: 700;
 }
+
+/* Modal Box */
+/* Item Detail */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-container {
+  position: relative;
+  background-color: #fefefe;
+  color: var(--bg);
+  margin: 15% auto;
+  padding: 1.2rem;
+  border: 1px solid #666;
+  width: 80%;
+  animation: animateModal 0.5s;
+}
+
+/* Modal Animation */
+@keyframes animateModal {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal-container .close-icon {
+  position: absolute;
+  right: 1rem;
+}
+
+.modal-content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.modal-content img {
+  height: 18rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.modal-content p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-top: 1.2rem;
+}
+
+.modal-content a {
+  display: flex;
+  gap: 1rem;
+  width: 12rem;
+  background-color: var(--primary);
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1rem 1.6rem;
+}
+
+.modal .modal-container .modal-content .product-content h3 {
+  margin-top: 1rem;
+}
+
+/* contact */
+.phone-button {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 3px rgba (1, 1, 3 0.5);
+}
+.email-button {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 3px rgba (1, 1, 3 0.5);
+}
+
+.contact-ask h3 {
+  margin-top: 1rem;
+  padding: 1 0;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
 /* Media Queries */
 
 /* Laptop */
@@ -669,6 +811,14 @@ footer .credit a {
   input:checked + label {
     height: 600px;
     width: 400px;
+  }
+
+  .modal-content {
+    flex-wrap: wrap;
+  }
+
+  .modal-content img {
+    flex-wrap: wrap;
   }
 }
 

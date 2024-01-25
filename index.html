@@ -31,9 +31,15 @@
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
     </nav>
     <!-- navbar end-->
 
@@ -48,7 +54,7 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elitl. numquam
           repellat vitae. Rem, nisi placeat. Aliquam ab et fuga.
         </p>
-        <a href="#" class="cta">Tune Up!</a>
+        <a href="#" class="item-detail-button">Tune Up!</a>
       </main>
     </section>
     <!-- Landing freaky End -->
@@ -86,8 +92,7 @@
     <section id="package" class="package">
       <h2>Special <span>Package</span></h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-        voluptatibus corporis. Deleniti dolore vitae placeat dolores omnis,
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
 
       <!-- <div class="row">
@@ -165,9 +170,7 @@
     <section id="testimony" class="testimony">
       <h2>Our <span>Testimonials</span></h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quam
-        fugiat consequuntur, illum animi esse dolore eligendi. Vitae, totam
-        quis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
       </p>
       <div class="wrapper">
         <div class="container">
@@ -250,18 +253,32 @@
 
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
+      
       <h2>Contact <span>Us</span></h2>
-      <p>Jl. laswi, Kec. Baleendah, Kabupaten Bandung, Jawa Barat 40375</p>
       <div class="row">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.964220329888!2d107.63933060990342!3d-7.013490892958785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68ebeea7a87131%3A0x5a37058dbf98205d!2sPiston%20freak%20garage!5e0!3m2!1sid!2sid!4v1705924006167!5m2!1sid!2sid"
           width="2000"
-          height="400"
+          height="300"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           class="map"
         ></iframe>
+
+       
+          
+        
+      </div>
+      <a href="#" class="phone-button"
+        ><i data-feather="phone"></i> <span>Call Us</span></a
+      >
+    </div>
+  </div>
+  <a href="#" class="email-button"
+    ><i data-feather="mail"></i> <span>Mail Us</span></a>
+</div>
+
       </div>
     </section>
     <!-- Contact Section End -->
@@ -269,11 +286,36 @@
     <!-- footer Start-->
     <footer>
       <div class="credit">
-        <p>Created by Tegar Ibrahim &copy; 2024</p>
+        <p>Created by <a href="https://github.com/xkyrage" style="color: chartreuse;">Tegar Ibrahim</a> &copy; 2024</p>
       </div>
     </footer>
 
     <!-- footer End-->
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/logo2.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>TUNE UP - SPECIAL DISCOUNT!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Provident, tenetur cupiditate facilis obcaecati ullam maiores
+              minima quos perspiciatis similique itaque, esse rerum eius
+              repellendus voluptatibus!
+            </p>
+            <div class="product-price">
+              Special price for <span>TUNE UP!</span>
+            </div>
+            <a href="#" class="price-discount-button"
+              ><i data-feather="tool"></i> <span>IDR 299K</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
 
     <!-- icons -->
     <script>
