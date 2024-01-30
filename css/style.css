@@ -607,9 +607,9 @@ footer .credit a {
   padding: 1.2rem;
   border: 1px solid #666;
   width: 80%;
+  height: 45%;
   animation: animateModal 0.5s;
 }
-
 /* Modal Animation */
 @keyframes animateModal {
   from {
@@ -826,5 +826,8 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .modal-container {
+    height: 53%;
   }
 }
