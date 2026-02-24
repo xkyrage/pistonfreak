@@ -607,7 +607,7 @@ footer .credit a {
   padding: 1.2rem;
   border: 1px solid #666;
   width: 80%;
-  height: 45%;
+  height: 24%;
   animation: animateModal 0.5s;
 }
 /* Modal Animation */
@@ -828,9 +828,14 @@ footer .credit a {
     font-size: 55%;
   }
   .modal-container {
-    height: 53%;
+    height: 42%;
+    width: 71%;
   }
+.modal-content a {
+  width: 30rem;
+  padding: 1rem 10.6rem;
 
+}
     .navbar {
     background-size: 36%;
   }
@@ -840,6 +845,7 @@ footer .credit a {
   display: none;
 }
 }
+
 
 
 
