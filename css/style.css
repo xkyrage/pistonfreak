@@ -830,6 +830,16 @@ footer .credit a {
   .modal-container {
     height: 53%;
   }
+
+    .navbar {
+    background-size: 36%;
+  }
+
+
+.testimony {
+  display: none;
 }
+}
+
 
 
