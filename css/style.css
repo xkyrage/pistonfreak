@@ -26,12 +26,12 @@ body {
 /* navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 1.4rem 7%;
   background-image: url("https://raw.githubusercontent.com/xkyrage/pistonfreak/refs/heads/master/img/logo1.jpg");
   background-repeat: no-repeat;
-  background-size: 18%;
+  background-size: 10%;
   background-position: left;
   position: relative;
   background-color: rgb(2 2 2 / 88%);
@@ -831,4 +831,5 @@ footer .credit a {
     height: 53%;
   }
 }
+
 
