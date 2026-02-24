@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-image: url("/img/logo1.jpg");
+  background-image: url("https://raw.githubusercontent.com/xkyrage/pistonfreak/refs/heads/master/img/logo1.jpg");
   background-repeat: no-repeat;
   background-size: 18%;
   background-position: left;
@@ -136,7 +136,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("/img/header-bg.jpg");
+  background-image: url("https://raw.githubusercontent.com/xkyrage/pistonfreak/refs/heads/master/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -528,16 +528,16 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url("/img/testi1.jpg");
+  background-image: url("https://raw.githubusercontent.com/xkyrage/pistonfreak/refs/heads/master/img/testi1.jpg");
 }
 .card[for="c2"] {
-  background-image: url("/img/testi2.jpg");
+  background-image: url("https://raw.githubusercontent.com/xkyrage/pistonfreak/refs/heads/master/img/testi2.jpg");
 }
 .card[for="c3"] {
-  background-image: url("/img/testi3.jpg");
+  background-image: url("https://raw.githubusercontent.com/xkyrage/pistonfreak/refs/heads/master/img/testi3.jpg");
 }
 .card[for="c4"] {
-  background-image: url("/img/testi4.jpg");
+  background-image: url("https://raw.githubusercontent.com/xkyrage/pistonfreak/refs/heads/master/img/testi4.jpg");
 }
 
 .testimony .row .testimony-img {
@@ -831,3 +831,4 @@ footer .credit a {
     height: 53%;
   }
 }
+
