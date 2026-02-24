@@ -827,6 +827,9 @@ footer .credit a {
   html {
     font-size: 55%;
   }
+  .navbar .search-form {
+width: 30rem;
+}
   .modal-container {
     height: 42%;
     width: 71%;
@@ -845,6 +848,7 @@ footer .credit a {
   display: none;
 }
 }
+
 
 
 
